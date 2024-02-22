@@ -1,0 +1,79 @@
+[
+  {
+    "id": 1,
+    "name": "Kavin",
+    "gender": "M",
+    "img": "https://img.freepik.com/premium-photo/cute-boy-cartoon-character-3d_729089-137.jpg",
+    "role": "Flutter DEveloper"
+  },
+  {
+    "id": 2,
+    "name": "Kishore",
+    "gender": "M",
+    "img": "https://classroomclipart.com/image/static7/preview2/3d-boy-character-wearing-glasses-and-hoodie-63631.jpg",
+    "role": "Devops Engineer"
+  },
+  {
+    "id": 3,
+    "name": "Vijay",
+    "gender": "M",
+    "img": "https://png.pngtree.com/thumb_back/fh260/background/20230426/pngtree-handsome-and-cute-boy-in-3d-image_2498369.jpg",
+    "role":"Android Developer"
+  },
+  {
+    "id": 4,
+    "name": "Ajith",
+    "gender": "M",
+    "img": "https://static.vecteezy.com/system/resources/previews/022/484/651/non_2x/happy-3d-student-boy-with-books-on-white-background-transparent-background-free-png.png",
+    "role": "Support"
+  },
+  {
+    "id": 5,
+    "name": "Boopathi",
+    "gender": "M",
+    "img": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRDdPkOLB7rh2SaKANl5QFsGzxA-lUyvYDzOd1UkEamks6GlY3tigfFDEez30U5ImfZvEk&usqp=CAU",
+    "role": "HR"
+  },
+  {
+    "id": 6,
+    "name": "Karthick",
+    "gender": "M",
+    "img": "https://www.zbrushcentral.com/uploads/default/original/4X/e/f/2/ef2d64f37ed4572972ac306cecb5865f4d9072b8.jpeg",
+    "role": "Dot net Developer"
+  },
+  {
+    "id": 7,
+    "name": "Nishanth",
+    "gender": "M",
+    "img": "https://static.vecteezy.com/system/resources/previews/024/346/462/non_2x/3d-happy-cartoon-boy-on-transparent-background-generative-ai-png.png",
+    "role":"Fullstack Engineer"
+  },
+  {
+    "id": 8,
+    "name": "Ramu",
+    "gender": "M",
+    "img": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSnIkMh4Y-cTfYMzLzDzoDQO9gtQSf53-8Q8NEEVpMP-Yw7SAUKUfU8r82wHdJ_41TetAg&usqp=CAU",
+    "role":"Data Analyst"
+  },
+  {
+    "id": 9,
+    "name": "Chandru",
+    "gender": "M",
+    "img": "https://img.freepik.com/premium-psd/high-resolution-boy-character-isolated-white-background_885258-764.jpg",
+    "role":"Software Engineer"
+  },
+  {
+    "id": 10,
+    "name": "Jeevan",
+    "gender": "M",
+    "img": "https://img.freepik.com/premium-photo/cute-boy-3d-character_963876-1963.jpg",
+    "role": "Software Engineer"
+  },
+  {
+    "id": 11,
+    "name": "Hari",
+    "gender": "M",
+    "img": "https://img.freepik.com/premium-photo/cute-3d-boy-with-clothes-sunglasses-3d-render_741910-4373.jpg",
+    "role": "Data Analyst"
+  }
+]
