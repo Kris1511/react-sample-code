@@ -28,6 +28,9 @@ const Navbar = () => {
         <li>
           <Link to={"/Messagepage"}>Message</Link>
         </li>
+        <li>
+          <Link to={"/Sendpage"}>Message send</Link>
+        </li>
       </ul>
     </div>
   );

@@ -1,6 +1,6 @@
 import React from "react";
 
-const Forminput = ({name, placeholder, label, value, handleChange, required}) => {
+const Forminput = ({name, placeholder, label, register, errors, required}) => {
   return (
       <div>
         <label htmlFor={name} className="block mb-3">
@@ -9,12 +9,11 @@ const Forminput = ({name, placeholder, label, value, handleChange, required}) =>
         </label>
         <textarea
           name={name}
-          className="px-3 py-2 rounded w-full outline-none mb-3"
-          value={value}
-          onChange={handleChange}
+          className="px-3 py-2 rounded w-full outline-none"
           placeholder={placeholder}
-          required={required}
+          {...register}
         />
+        {errors && <small className="text-red-700">{errors.message}</small>}
       </div>
   );
 };

@@ -9,6 +9,7 @@ import Homepage from './Pages/Homepage.jsx';
 import Errorpage from './Pages/Errorpage.jsx';
 import Followerpage from './Pages/Follower.jsx'
 import Messagepage from './Pages/Messagepage.jsx';
+import Sendpage from './Pages/Sendpage.jsx'
 
 
 const router = createBrowserRouter([
@@ -39,6 +40,10 @@ const router = createBrowserRouter([
       {
         path: 'Messagepage',
         element: <Messagepage />
+      },
+      {
+        path: "Sendpage",
+        element: <Sendpage />
       }
     ],
     errorElement: <Errorpage/>
