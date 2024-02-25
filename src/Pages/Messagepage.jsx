@@ -3,6 +3,14 @@ import Forminput from "../Components/FormInput/Forminput";
 import Formbutton from "../Components/FormButton/Formbutton";
 import FromTextArea from "../Components/FormTextArea/FormTextArea.jsx";
 import { useForm } from "react-hook-form";
+import { z } from "zod";
+import { zodResolver } from "@hookform/resolvers/zod";
+
+const schemaFun = z.object({
+  fullName: z.string().min(3).max(20),
+  email: z.string().email(),
+  desc:z.string().min(20).max(100)
+})
 
 const Messagepage = () => {
   // this is component based functions
@@ -10,7 +18,10 @@ const Messagepage = () => {
     register,
     handleSubmit,
     formState: { errors },
-  } = useForm();
+  } = useForm({
+    resolver: zodResolver(schemaFun)
+  });
+
   console.log(useForm());
 
   // this is normal input functions
@@ -48,9 +59,7 @@ const Messagepage = () => {
             label="Full Name"
             type="text"
             placeholder="Enter full name"
-            register={register("fullName", {
-              required: "This field is important",
-            })}
+            register={register("fullName")}
             errors={errors.fullName}
             required
           />
@@ -59,9 +68,7 @@ const Messagepage = () => {
             label="Email"
             type="text"
             placeholder="Enter your email"
-            register={register("email", {
-              required: "This field is important",
-            })}
+            register={register("email")}
             errors={errors.email}
             required
           />
@@ -70,9 +77,7 @@ const Messagepage = () => {
             type="text"
             label="Description"
             placeholder="Enter your description"
-            register={register("desc", {
-              required: "This field is important",
-            })}
+            register={register("desc")}
             errors={errors.desc}
           />
           <Formbutton type="Save" />
